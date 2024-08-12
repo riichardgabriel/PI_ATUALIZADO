@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+
+p{
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+h1, h2, h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+}

@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+header{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 90%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* header .logo p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} */
+
+header .logo img{
+    border-radius: 50%;
+    position: relative;
+    width: 100px;
+}
+
+header .menu ul{
+    position: relative;
+    display: flex;
+}
+
+header .menu li{
+    list-style: none;
+}
+
+header .menu li a{
+    color: black; 
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+header .menu li a:hover{
+    color: aqua; 
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 50px;
+    transition: 0.1s;
+}
+
+img{
+    max-width: 100vw;
+}
+
+section.home{
+    background-image: url(../img/bannersite.jpg)!important;
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+}
+
+div{
+    display: flex;
+    align-items: center;
+}
+
+section .sobre{
+    text-align: center;
+    color: 000;
+    text-decoration: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+section .sobre span{
+    color: var(--main-color);
+    text-decoration: uppercase;
+}
+
+section .sobre .row{
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+
+section .sobre .row .image{
+    flex:1 1 45rem;
+}
+
+section .sobre .row .image img{
+    width: 0%;
+}
+
+section .sobre .row .textot{
+    flex:1 1 45rem;
+    padding: 2rem;
+}
+
+section .sobre .row .texto h3{
+    font-size: 9rem;
+}
+
+section .sobre .row .texto p{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+section topo-do-site .saibamais{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    border-radius: 10px;
+    color: blue;
+    transition: 0.2s;
+}
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.img-topo-site img{
+    position: absolute;
+    background-size: cover;
+    width: 250px;
+    height: auto;
+    top: 90%;
+    right: 5%;
+
+}
+
+.home{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+}
+
+/* largura da distância do vídeo */
+.videos{
+    gap: 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+/* título do vídeo */
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+/* perguntas */
+/* .faq{
+    width: 100%;
+    max-width: 100vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.faq details{
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.faq .perguntas details summary{
+    background-color: #e41952;
+    font-size: 20px;
+    padding: 10px 700px;
+    border-bottom: 2px solid #282828;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.faq details p{
+    background-color: #282828;
+    padding: 2%;
+    transition: all .5s;
+    justify-content: center;
+    display: flex;
+}
+
+.faq{
+    color: turquoise;
+    justify-content: center;
+    display: flex;
+}
+
+.faq{
+    justify-content: center;
+    display: flex;
+} */
+
+#duvidas{
+    display: grid;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#duvidas details summary{
+    background-color: black;
+    padding: 2%;
+    border-bottom: 2px solid aqua;
+    color: #fff;
+    font-weight: 600;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#duvidas details p{
+    background-color: aqua;
+    justify-content: center;
+    text-align: center;
+}
+
+#duvidas details {
+    max-width: 600px;
+}
+
+/* botão whatsapp */
+.whats{
+    position: fixed;
+    bottom: 10px;
+    right: 3    0px;
+    z-index: 9999;
+}
